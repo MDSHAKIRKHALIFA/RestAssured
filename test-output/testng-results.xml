@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1436" started-at="2020-05-13T17:37:33 EDT" finished-at="2020-05-13T17:37:35 EDT">
+  <suite name="Default suite" duration-ms="1217" started-at="2020-05-16T22:08:17 EDT" finished-at="2020-05-16T22:08:18 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1436" started-at="2020-05-13T17:37:33 EDT" finished-at="2020-05-13T17:37:35 EDT">
-      <class name="RestAssuredTest.Delete_Test01">
-        <test-method status="PASS" signature="Delete01()[pri:0, instance:RestAssuredTest.Delete_Test01@4973813a]" name="Delete01" duration-ms="1408" started-at="2020-05-13T17:37:33 EDT" finished-at="2020-05-13T17:37:35 EDT">
+    <test name="Default test" duration-ms="1217" started-at="2020-05-16T22:08:17 EDT" finished-at="2020-05-16T22:08:18 EDT">
+      <class name="Personal_Database_LocalHost.Delete_Test">
+        <test-method status="PASS" signature="delete1(int)[pri:1, instance:Personal_Database_LocalHost.Delete_Test@72b6cbcc]" name="delete1" duration-ms="1165" started-at="2020-05-16T22:08:17 EDT" data-provider="DataDelete" finished-at="2020-05-16T22:08:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Delete01 -->
-      </class> <!-- RestAssuredTest.Delete_Test01 -->
+        </test-method> <!-- delete1 -->
+        <test-method status="PASS" signature="delete1(int)[pri:1, instance:Personal_Database_LocalHost.Delete_Test@72b6cbcc]" name="delete1" duration-ms="16" started-at="2020-05-16T22:08:18 EDT" data-provider="DataDelete" finished-at="2020-05-16T22:08:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete1 -->
+      </class> <!-- Personal_Database_LocalHost.Delete_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
